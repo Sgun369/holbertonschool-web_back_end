@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 """Basic annotations - floor"""
-import math
+from math import floor as flr
 
 
 def floor(n: float) -> int:
     """ returns the floor of the float."""
-    if isinstance(n, float):
-        n = math.floor(n)
-    return n
+    return flr(n)
