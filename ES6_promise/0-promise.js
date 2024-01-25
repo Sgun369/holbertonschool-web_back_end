@@ -1,3 +1,3 @@
 export default function getResponseFormAPI() {
-  return new Promise(() => {});
+  return new Promise((resolve, reject) => [resolve, reject]);
 }
