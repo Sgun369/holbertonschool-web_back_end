@@ -5,7 +5,7 @@ export default function handleProfileSignup() {
     .then(([photoResult, userResult]) => {
       console.log(`${photoResult.body} ${userResult.firstName} ${userResult.lastName}`);
     })
-    .catch((error) => {
-      console.error('Signup system offline', error.message);
+    .catch(() => {
+      console.error('Signup system offline');
     });
 }
