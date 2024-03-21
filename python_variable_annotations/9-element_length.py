@@ -3,7 +3,7 @@
 from typing import List, Tuple, Iterable, Sequence
 
 
-def element_length(lst: List[str]) -> List[Tuple[str, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Takes a list of string and returns a list of tuples
     where each tuple contains an element
     from the input list and its corresponding length
